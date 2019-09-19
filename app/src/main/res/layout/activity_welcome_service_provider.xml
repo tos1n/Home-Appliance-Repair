@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeServiceProvider"
+    android:background="@drawable/background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:id="@+id/welcomeServiceTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="65dp"
+            android:text="Welcome"
+            android:textSize="28sp"
+            tools:text="Welcome" />
+
+        <Button
+            android:id="@+id/buttonAvailabilities"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="277dp"
+            android:background="@drawable/button_background"
+            android:text="Availabilities" />
+
+        <Button
+            android:id="@+id/buttonEditProfile"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="134dp"
+            android:layout_marginRight="134dp"
+            android:layout_marginBottom="195dp"
+            android:background="@drawable/button_background"
+            android:text="Edit Profile" />
+
+
+        <Button
+            android:id="@+id/buttonGoToServices"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="107dp"
+            android:background="@drawable/button_background"
+            android:text="Services" />
+
+        <Button
+            android:id="@+id/buttonLogOutService"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_background"
+            android:text="Log Out"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

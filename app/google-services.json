@@ -1,0 +1,43 @@
+{
+  "project_info": {
+    "project_number": "965670029802",
+    "firebase_url": "https://seg2105project-7a7ba.firebaseio.com",
+    "project_id": "seg2105project-7a7ba",
+    "storage_bucket": "seg2105project-7a7ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965670029802:android:63cd68798459aa48",
+        "android_client_info": {
+          "package_name": "com.example.ffive.seg2105ffiveproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "965670029802-sje51dfdr7ca8ujgdltkv23kvkblri6m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD19N7s5AZ1N4H4zUn16hcpD4NDWQnc7Yc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+    //
+  ],
+  "configuration_version": "1"
+}

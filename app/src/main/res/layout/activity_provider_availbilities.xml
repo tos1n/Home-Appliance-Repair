@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProviderAvailabilities"
+    android:background="@drawable/background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="Availabilities"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+        <Button
+            android:id="@+id/buttonAvailabilitiesBack"
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="65dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/button_background"
+            android:text="Back"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            tools:layout_editor_absoluteX="57dp"
+            tools:layout_editor_absoluteY="459dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="80dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/mondayAvText"
+                android:layout_width="213dp"
+                android:layout_height="40dp"
+                android:layout_alignBaseline="@+id/textView2"
+                android:layout_marginLeft="90dp"
+                android:ems="10"
+                android:text="time" />
+
+
+            <TextView
+                android:id="@+id/tuesdayAvText"
+                android:layout_width="213dp"
+                android:layout_height="40dp"
+                android:layout_alignBaseline="@+id/textView2"
+                android:layout_marginLeft="90dp"
+                android:ems="10"
+                android:text="time" />
+
+            <TextView
+                android:id="@+id/wednesdayAvText"
+                android:layout_width="213dp"
+                android:layout_height="40dp"
+                android:layout_alignBaseline="@+id/textView2"
+                android:layout_marginLeft="90dp"
+                android:ems="10"
+                android:text="time" />
+
+            <TextView
+                android:id="@+id/thursdayAvText"
+                android:layout_width="213dp"
+                android:layout_height="40dp"
+                android:layout_alignBaseline="@+id/textView2"
+                android:layout_marginLeft="90dp"
+                android:ems="10"
+                android:text="time" />
+
+            <TextView
+                android:id="@+id/fridayAvText"
+                android:layout_width="213dp"
+                android:layout_height="40dp"
+                android:layout_alignBaseline="@+id/textView2"
+                android:layout_marginLeft="90dp"
+                android:ems="10"
+                android:text="time" />
+
+            <TextView
+                android:id="@+id/saturdayAvText"
+                android:layout_width="213dp"
+                android:layout_height="40dp"
+                android:layout_alignBaseline="@+id/textView2"
+                android:layout_marginLeft="90dp"
+                android:ems="10"
+                android:text="time" />
+
+            <TextView
+                android:id="@+id/sundayAvText"
+                android:layout_width="213dp"
+                android:layout_height="40dp"
+                android:layout_alignBaseline="@+id/textView2"
+                android:layout_marginLeft="90dp"
+                android:ems="10"
+                android:text="time" />
+
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="145dp"
+                android:text="Edit Availabilities"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+            <LinearLayout
+                android:layout_width="352dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/fromTime"
+                    android:layout_width="55dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="time"
+                    android:maxLength="5"
+                    android:maxLines="1" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="to"
+                    tools:text="to" />
+
+                <EditText
+                    android:id="@+id/toTime"
+                    android:layout_width="55dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="time"
+                    android:maxLength="5"
+                    android:maxLines="1" />
+
+                <Spinner
+                    android:id="@+id/daySelector"
+                    android:layout_width="138dp"
+                    android:layout_height="wrap_content"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="0dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_weight="1"
+            android:text="Monday"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            tools:layout_editor_absoluteX="29dp"
+            tools:layout_editor_absoluteY="38dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="70dp"
+            android:layout_weight="1"
+            android:text="Tuesday"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            tools:layout_editor_absoluteX="29dp"
+            tools:layout_editor_absoluteY="38dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="110dp"
+            android:layout_weight="1"
+            android:text="Wednesday "
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            tools:layout_editor_absoluteX="29dp"
+            tools:layout_editor_absoluteY="38dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="150dp"
+            android:layout_weight="1"
+            android:text="Thursday"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            tools:layout_editor_absoluteX="29dp"
+            tools:layout_editor_absoluteY="38dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="190dp"
+            android:layout_weight="1"
+            android:text="Friday"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            tools:layout_editor_absoluteX="29dp"
+            tools:layout_editor_absoluteY="38dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="230dp"
+            android:layout_weight="1"
+            android:text="Saturday"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            tools:layout_editor_absoluteX="29dp"
+            tools:layout_editor_absoluteY="38dp" />
+
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="270dp"
+            android:layout_weight="1"
+            android:text="Sunday"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            tools:layout_editor_absoluteX="29dp"
+            tools:layout_editor_absoluteY="38dp" />
+
+        <CheckBox
+            android:id="@+id/isAvailable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnSaveAvailabilities"
+            android:layout_marginLeft="10dp"
+            android:onClick="onCheckboxClicked"
+            android:text="Not Available" />
+
+        <Button
+            android:id="@+id/btnSaveAvailabilities"
+            android:layout_width="123dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="63dp"
+            android:layout_marginRight="63dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/button_background"
+            android:text="Save"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            tools:layout_editor_absoluteX="57dp"
+            tools:layout_editor_absoluteY="459dp" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

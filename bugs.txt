@@ -1,0 +1,7 @@
+Bugs:
+- Homeowner main sceen. Search by UI needs to be fixed.
+- Day of the week validation (capitalisation)
+- search ratings by integer
+- service type needs a scroll down
+- Doesn't clear automatically after search
+- crashes when inputting rating for service tyoe.
